@@ -1,8 +1,9 @@
 # 👋 Luis Alejandro Meléndez Salas – CV Web
 
-![GitHub followers](https://img.shields.io/github/followers/alejandrom21?style=social)
-![LinkedIn](https://img.shields.io/badge/LinkedIn-0077B5?style=flat&logo=linkedin&logoColor=white)
-![Email](https://img.shields.io/badge/Email-systemale@gmail.com-red?style=flat&logo=gmail&logoColor=white)
+## 🏁 Cómo visualizar mi-CV
+
+Puedes ver mi-CV aquí:  
+👉 [cv-portfolio/](https://alejandrom21.github.io/cv-portfolio/)
 
 ---
 
@@ -23,11 +24,10 @@ Me destaco por generar ideas, colaborar en equipo y asumir responsabilidades con
 
 ### Técnicas
 
-- ![HTML5](https://img.shields.io/badge/-HTML5-E34F26?style=flat&logo=html5&logoColor=white)
-- ![CSS3](https://img.shields.io/badge/-CSS3-1572B6?style=flat&logo=css3)
-- ![JavaScript](https://img.shields.io/badge/-JavaScript-F7DF1E?style=flat&logo=javascript&logoColor=black)
-- ![Git](https://img.shields.io/badge/-Git-F05032?style=flat&logo=git&logoColor=white)
-- ![GitHub](https://img.shields.io/badge/-GitHub-181717?style=flat&logo=github)
+- HTML5
+- CSS3
+- JavaScript
+- Git & GitHub
 - Programación Orientada a Objetos en JS
 
 ### Blandas
