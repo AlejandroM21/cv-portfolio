@@ -1,28 +1,78 @@
-/* Reset */
+/*
+* ======================================
+* Estilos Generales y Reset
+* ======================================
+*/
 * {
   margin: 0;
   padding: 0;
   box-sizing: border-box;
 }
 
+/*
+* ======================================
+* Variables CSS (Recomendación 1)
+* ======================================
+*/
+:root {
+  --primary-color: #5ae6ff;
+  --secondary-color: #14b8a6;
+  --background-light: #f0f4f8;
+  --background-dark: #222222;
+  --text-light: #1f2937;
+  --text-dark: #f3f4f6;
+  --card-light: #ffffff;
+  --card-accent-light: #f5f5f5;
+  --card-dark: #1f2937;
+  --card-accent-dark: #0f172a;
+  --value-prop-light: #d1fae5;
+  --value-prop-dark: #1f2937;
+}
+
+/*
+* ======================================
+* Estilos del Cuerpo y Tema
+* ======================================
+*/
 body {
+  /* Recomendación 2: Fuente de Google Fonts */
   font-family: "Inter", sans-serif;
   line-height: 1.6;
-  color: #1f2937;
-  background-color: #f0f4f8;
+  color: var(--text-light);
+  background-color: var(--background-light);
   transition: background-color 0.3s, color 0.3s;
 }
 
 body.dark {
-  background-color: #111827;
-  color: #f3f4f6;
+  background-color: var(--background-dark);
+  color: var(--text-dark);
+  h2 {
+    color: var(--primary-color);
+  }
+  h4.dark {
+    color: var(--primary-color);
+    font-weight: normal;
+  }
+  .skill-bar {
+    background-color: var(--primary-color);
+  }
+  a {
+    color: var(--primary-color);
+  }
+  a:hover {
+    color: var(--secondary-color);
+    text-decoration: underline;
+  }
 }
 
+/*
+* ======================================
+* Encabezado
+* ======================================
+*/
 header {
   text-align: center;
   padding: 2rem 1rem;
-  background-color: #0d9488;
-  color: #f0f4f8;
   position: relative;
   border-bottom-left-radius: 20px;
   border-bottom-right-radius: 20px;
@@ -37,46 +87,73 @@ header p {
   font-size: 1.2rem;
 }
 
+.header-content {
+  display: flex;
+  align-items: center;
+  gap: 20px;
+  justify-content: center;
+}
+
+.avatar {
+  width: 180px;
+  height: 180px;
+  border-radius: 50%;
+  object-fit: cover;
+  transform: translateY(-5px);
+  box-shadow: 0 8px 12px rgba(0, 0, 0, 0.2);
+}
+
+/*
+* ======================================
+* Navegación
+* ======================================
+*/
 nav {
   display: flex;
   justify-content: center;
   gap: 2rem;
   padding: 1rem;
-  background-color: #0f172a;
+  background-color: var(--card-accent-dark);
   border-radius: 10px;
-  margin: 1rem auto;
+  margin: 0 auto;
   max-width: 800px;
 }
 
 nav a {
-  color: #f0f4f8;
+  color: var(--text-dark);
   font-weight: 600;
   text-decoration: none;
   transition: color 0.3s;
 }
 
 nav a:hover {
-  color: #14b8a6;
+  color: var(--secondary-color);
   text-decoration: underline;
 }
 
+/*
+* ======================================
+* Estilos Principales y Secciones
+* ======================================
+*/
 main {
   max-width: 900px;
   margin: 2rem auto;
   padding: 0 1rem;
 }
 
-section {
+section,
+.cv__value-proposition {
   margin-bottom: 3rem;
   padding: 1.5rem;
   border-radius: 12px;
-  background-color: #ffffff;
+  background-color: var(--card-light);
   box-shadow: 0 4px 6px rgba(31, 41, 55, 0.1);
   transition: transform 0.3s, box-shadow 0.3s;
 }
 
 body.dark section {
-  background-color: #1f2937;
+  background-color: var(--card-dark);
   box-shadow: 0 4px 6px rgba(0, 0, 0, 0.3);
 }
 
@@ -91,7 +168,11 @@ body.dark section {
   transform: translateY(0);
 }
 
-/* Skills */
+/*
+* ======================================
+* Habilidades
+* ======================================
+*/
 .skills-container {
   display: flex;
   flex-wrap: wrap;
@@ -109,7 +190,7 @@ body.dark section {
 .skill-bar {
   display: block;
   height: 8px;
-  background-color: #0d9488;
+  background-color: var(--text-light);
   margin-top: 0.3rem;
   width: 0;
   border-radius: 4px;
@@ -120,24 +201,28 @@ body.dark section {
   margin-bottom: 0.8rem;
 }
 
-/* Projects */
-.project-card {
+/*
+* ======================================
+* Proyectos y Experiencia
+* ======================================
+*/
+.project-card,
+.experience-card {
   padding: 1.5rem;
   margin-bottom: 1rem;
   border-radius: 12px;
   cursor: pointer;
   transition: transform 0.3s, box-shadow 0.3s, background-color 0.3s;
-  background-color: #e0f2f1;
+  background-color: var(--card-accent-light);
 }
 
-body.dark .project-card {
-  background-color: #0f172a;
-}
-
+body.dark .project-card,
 body.dark .experience-card {
-  background-color: #0f172a;
+  background-color: var(--card-accent-dark);
 }
-.project-card:hover {
+
+.project-card:hover,
+.experience-card:hover {
   transform: translateY(-5px);
   box-shadow: 0 8px 12px rgba(0, 0, 0, 0.2);
 }
@@ -145,72 +230,92 @@ body.dark .experience-card {
 .project-link {
   display: inline-block;
   margin-top: 0.5rem;
-  color: #0d9488;
-  font-weight: 600;
+
+  font-weight: 800;
   text-decoration: none;
 }
 
 .project-link:hover {
-  color: #14b8a6;
+  color: var(--secondary-color);
   text-decoration: underline;
 }
 
-/* Propuesta de valor */
-.cv__value-proposition {
-  padding: 1rem;
-  background-color: #d1fae5;
-  border-radius: 12px;
-  margin-bottom: 2rem;
-  box-shadow: 0 4px 6px rgba(31, 41, 55, 0.05);
-}
+/*
+* ======================================
+* Propuesta de valor
+* ======================================
+*/
 
 body.dark .cv__value-proposition {
-  background-color: #134e4a;
+  background-color: var(--value-prop-dark);
 }
 
-/* Contacto */
+/*
+* ======================================
+* Contacto y Footer
+* ======================================
+*/
 a {
   text-decoration: none;
-  color: #0d9488;
+  color: var(--card-accent-dark);
+  transition: color 0.3s;
+  font-weight: 400;
 }
 
 a:hover {
-  color: #14b8a6;
+  color: var(--secondary-color);
   text-decoration: underline;
 }
 
-/* Footer */
+.contact p {
+  font-weight: 700;
+}
+
 footer {
   text-align: center;
   padding: 1.5rem;
-  background-color: #0f172a;
-  color: #f0f4f8;
+  background-color: var(--card-accent-dark);
+  color: var(--text-dark);
   border-top-left-radius: 20px;
   border-top-right-radius: 20px;
 }
 
-.experience-card {
-  background: #fff;
-  border-radius: 12px;
-  box-shadow: 0 4px 12px rgba(0, 0, 0, 0.1);
-  padding: 20px;
-  margin-bottom: 20px;
-  background-color: #e0f2f1;
-}
+/*
+* ======================================
+* Media Queries para Responsividad (Recomendación 3)
+* ======================================
+*/
+@media (max-width: 768px) {
+  .header-content {
+    flex-direction: column;
+    text-align: center;
+    gap: 10px;
+  }
 
-.experience-card h3 {
-  margin-bottom: 5px;
-}
+  .avatar {
+    width: 140px;
+    height: 140px;
+  }
 
-.experience-card p {
-  margin-bottom: 10px;
-}
+  nav {
+    flex-wrap: wrap;
+    gap: 1rem;
+  }
 
-.experience-card ul {
-  margin: 10px 0;
-  padding-left: 20px;
-}
+  .skills-container {
+    flex-direction: column;
+    gap: 1.5rem;
+  }
 
-.experience-card ul li {
-  margin-bottom: 5px;
+  .skill-set {
+    width: 100%;
+  }
+
+  header h1 {
+    font-size: 1.8rem;
+  }
+
+  header p {
+    font-size: 1rem;
+  }
 }
