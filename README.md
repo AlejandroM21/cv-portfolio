@@ -1,6 +1,6 @@
 # 👋 Luis Alejandro Meléndez Salas – CV Web
 
-     Ingeniero de Sistemas | Desarrollador Full Stack Junior
+> Ingeniero de Sistemas | Desarrollador Full Stack Junior
 
 ## 🏁 Cómo visualizar mi-CV
 
