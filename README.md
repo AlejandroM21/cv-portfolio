@@ -45,14 +45,15 @@ Puedes ver mi-CV aquí:
 **Veni Vidi Vici Suministros S.A.S** – Líder de Sistemas  
 _Mocoa, Putumayo, Colombia | Mar 2019 – Abr 2021_
 
-- Supervisión de planes y procedimientos internos.
-- Soporte técnico preventivo y correctivo de equipos.
-- Gestión de bases de datos y desarrollo web front-end.
-- Evaluación de desempeño, solución de conflictos y optimización de procesos.
-- Diagnóstico y resolución de incidencias de hardware y software.
-- Instalación y actualización de sistemas, antivirus y aplicaciones.
-- Soporte técnico presencial y remoto.
-- Monitoreo de equipos y servidores.
+- Diagnostiqué y resolví incidencias en hardware y software, asegurando la continuidad operativa.
+- Implementé mantenimientos preventivos y correctivos, reduciendo fallos técnicos y mejorando el rendimiento.
+- Instalé, configuré y actualicé sistemas operativos, antivirus y aplicaciones, optimizando la infraestructura tecnológica.
+- Monitoreé proactivamente equipos y servidores, evitando incidencias críticas.
+- Desarrollé y optimicé la arquitectura del sitio web corporativo, mejorando velocidad y escalabilidad.
+- Diseñé interfaces front-end enfocadas en la experiencia del usuario.
+- Gestioné bases de datos internas, asegurando integridad y precisión de la información.
+- Lideré al equipo técnico, evaluando objetivos y garantizando eficiencia operativa.
+- Brindé soporte técnico integral a usuarios, logrando altos niveles de satisfacción.
 
 ---
 
@@ -60,7 +61,7 @@ _Mocoa, Putumayo, Colombia | Mar 2019 – Abr 2021_
 
 **Alrededor de los EE.UU.**  
 Aplicación web interactiva para gestión de perfil y tarjetas de lugares, con validación avanzada de formularios y manejo dinámico de elementos.  
-🔗 [Ver proyecto](https://alejandrom21.github.io/web_project_around/)
+🔗 [Ver proyecto](https://github.com/AlejandroM21/web_project_around)
 
 ---
 
@@ -68,7 +69,7 @@ Aplicación web interactiva para gestión de perfil y tarjetas de lugares, con v
 
 - ✉️ Email: [systemale@gmail.com](mailto:systemale@gmail.com)
 - 📱 Móvil: +57 611 277 117
-- 🐱 GitHub: [github.com/alejandrom21](https://github.com/alejandrom21)
+- 🐱 GitHub: [github.com/alejandrom21](https://github.com/AlejandroM21/cv-portfolio?tab=readme-ov-file)
 - 🔗 LinkedIn: [alejandro-melendez-1b380b181](https://www.linkedin.com/in/alejandro-melendez-1b380b181/)
 
 ---
