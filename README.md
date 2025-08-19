@@ -1,6 +1,6 @@
 # 👋 Luis Alejandro Meléndez Salas – CV Web
 
-> Ingeniero de Sistemas | Desarrollador Full Stack Junior
+Ingeniero de Sistemas | Desarrollador Front-End
 
 ## 🏁 Cómo visualizar mi-CV
 
@@ -11,8 +11,7 @@ Puedes ver mi-CV aquí:
 
 ## 💻 Sobre mí
 
-Soy **Ingeniero de Sistemas y Desarrollador Full Stack Junior**, apasionado por la programación y con sólidos conocimientos en **Git, HTML5, CSS3 y JavaScript**.  
-Me destaco por generar ideas, colaborar en equipo y asumir responsabilidades con compromiso y honestidad.
+**Ingeniero de Sistemas y Desarrollador Front-End** apasionado por crear experiencias digitales modernas, funcionales y centradas en el usuario. Con sólidos conocimientos en **HTML5, CSS3, JavaScript y Git**, disfruto diseñar interfaces atractivas e intuitivas que aportan valor real. Me caracteriza la creatividad, la proactividad y el compromiso, generando soluciones innovadoras y eficientes. Busco contribuir al crecimiento de empresas dinámicas desarrollando productos digitales de alta calidad y gran impacto.
 
 ---
 
